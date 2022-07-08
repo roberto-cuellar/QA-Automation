@@ -20,7 +20,6 @@ input.send_keys('Roberto Antonio'+Keys.TAB+'Cuellar Lozano'+Keys.TAB+'test@test.
 # Click event in a button
 driver.find_element(By.XPATH,"//button[contains(@id,'wsf-1-field-27')]").click()
 
-
 time.sleep(2)
 # Close the web browser
 driver.close()
